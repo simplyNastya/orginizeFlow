@@ -1,0 +1,4 @@
+routes:
+  - path: "*"
+    command: node_modules/.bin/react-scripts start
+    inline: true
