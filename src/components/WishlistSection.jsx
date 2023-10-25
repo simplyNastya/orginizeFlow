@@ -6,7 +6,7 @@ const WishlistSection = () => {
   const [wishes, setWishes] = useState([]);
 
   useEffect(() => {
-    const savedWishes = JSON.parse(localStorage.getItem("wishes"));
+    const savedWishes = JSON.parse(localStorage.getItem("wishes")) || [];
     setWishes(savedWishes);
   }, []);
 
