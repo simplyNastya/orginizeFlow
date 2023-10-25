@@ -7,11 +7,11 @@
     {
         "id": "2",
         "text": "ToDo",
-        "link": "/orginizeflow.onrender.com/todo"
+        "link": "/todo"
     },
     {
         "id": 3,
         "text": "WishList",
-        "link": "/orginizeflow.onrender.com/wishlist"
+        "link": "/wishlist"
     }
 ]

@@ -9,12 +9,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/orginizeflow.onrender.com">
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/orginizeflow.onrender.com/todo" element={<TodoPage />} />
-          <Route path="/orginizeflow.onrender.com/wishlist" element={<WishListPage />} />
+          <Route path="/todo" element={<TodoPage />} />
+          <Route path="/wishlist" element={<WishListPage />} />
         </Routes>
       </BrowserRouter>
     </div>
