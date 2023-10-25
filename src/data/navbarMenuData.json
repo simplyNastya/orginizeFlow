@@ -2,16 +2,16 @@
     {
         "id": "1",
         "text": "Home",
-        "link": "/"
+        "link": "/orginizeFlow/"
     },
     {
         "id": "2",
         "text": "ToDo",
-        "link": "/todo"
+        "link": "/orginizeFlow/todo"
     },
     {
         "id": 3,
         "text": "WishList",
-        "link": "/wishlist"
+        "link": "/orginizeFlow/wishlist"
     }
 ]
