@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/orginizeflow">
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
