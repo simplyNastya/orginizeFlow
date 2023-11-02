@@ -53,22 +53,24 @@ const TodoFormSection = () => {
   };
 
   return (
-    <section className="section-form">
-      <div className="form-container">
-        <TodoForm addTodo={addTodo} />
-        {todos.length ? (
-          <TodoList
-            tasks={todos}
-            deleteTodo={deleteTodo}
-            editTodo={editTodo}
-            updateTask={updateTask}
-            completeTodo={completeTodo}
-          />
-        ) : (
-          <p className="todo-notask">No tasks to do!</p>
-        )}
-      </div>
-    </section>
+    <main className="todoPage">
+      <section className="section-form">
+        <div className="form-container">
+          <TodoForm addTodo={addTodo} />
+          {todos.length ? (
+            <TodoList
+              tasks={todos}
+              deleteTodo={deleteTodo}
+              editTodo={editTodo}
+              updateTask={updateTask}
+              completeTodo={completeTodo}
+            />
+          ) : (
+            <p className="todo-notask">No tasks to do!</p>
+          )}
+        </div>
+      </section>
+    </main>
   );
 };
 

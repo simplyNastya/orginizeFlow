@@ -1,7 +1,11 @@
 import TodoFormSection from "../components/TodoFormSection";
 
 const TodoPage = () => {
-  return <TodoFormSection />;
+  return (
+    <main className="todoPage">
+      <TodoFormSection />
+    </main>
+  );
 };
 
 export default TodoPage;
